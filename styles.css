@@ -364,6 +364,7 @@ header {
   align-items: center;
   justify-content: center;
   height: 700px;
+  width: 25%;
   padding: 0;
   margin: 0;
   text-align: center;
@@ -415,6 +416,9 @@ header {
 #services-section__single-num3 {
   background-image: url(/images/pozadina31.png) !important; 
   background-size: cover;
+  margin-left: -1px;
+  margin-top: -1px;
+  padding-bottom: 1px;
 }
 
 #services-section__single-num4 {
