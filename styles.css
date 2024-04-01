@@ -416,14 +416,13 @@ header {
 #services-section__single-num3 {
   background-image: url(/images/Pozadina31.png) !important; 
   background-size: cover;
-  margin: 0 -1px;
+  margin: 0;
 }
 
 #services-section__single-num4 {
   background-image: url(/images/Pozadina41.png) !important;
   background-size: cover;
-  margin-top: -1px;
-  padding-bottom: 1px;
+  margin-top: 0;
 }
 
 /*Slider sekcija*/
