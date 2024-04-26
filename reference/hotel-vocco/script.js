@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
   fetch('/data/data.json')
     .then(response => response.json())
     .then(data => {
-      const swiperWrapper = document.querySelector('.mySwiper .swiper-wrapper');
+      const swiperWrapper = document.querySelector('.singleSwiper .swiper-wrapper');
       // Iterate through the first 5 items in the data array
       data.slice(0, 5).forEach(item => {
         // Create a slide
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function () {
       });
 
       // Initialize Swiper
-      var swiper = new Swiper(".mySwiper", {
+      var swiper = new Swiper(".singleSwiper", {
         slidesPerView: 3,
         spaceBetween: 30,
         loop: true,
