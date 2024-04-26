@@ -694,11 +694,12 @@ header {
   text-align: center;
 }
 
-
-
-.mainSwiper-button-prev, .mainSwiper-button-next {
+.custom-prev,
+.custom-next {
   display: none !important;
 }
+
+
 
 /*Reference sekcija*/
 .reference-section {
@@ -1267,6 +1268,7 @@ footer {
     height: auto;
     padding: 0 10px 10vh;
     min-height: 0;
+    position: relative;
   }
 
   .reference-section__align {
@@ -1287,7 +1289,8 @@ footer {
   padding-bottom: 50px;
 }
 
-.mainSwiper-button-next {
+
+.swiper-button-next {
   display: block !important;
   color: #bf1e37 !important;
   width: 100px;
@@ -1295,11 +1298,12 @@ footer {
   position: absolute;
   right: 0;
   opacity: 0.5;
-
+  z-index: 100;
 }
 
-.mainSwiper-button-prev {
+.swiper-button-prev {
   display: block !important;
+  z-index: 100;
 
   color: #bf1e37 !important;
   opacity: 0.5;
@@ -1307,6 +1311,7 @@ footer {
   height: 100px;
   position: absolute;
   left: 0;
+  top:0%;
 }
 
 .mainSwiper .swiper-wrapper .swiper-slide {

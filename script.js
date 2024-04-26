@@ -149,27 +149,27 @@ document.addEventListener('DOMContentLoaded', function () {
         swiperWrapper.appendChild(slide);
       });
 
-     // Initialize Swiper
-var swiper = new Swiper(".mainSwiper", {
-  effect: "coverflow",
-  grabCursor: true,
-  centeredSlides: true,
-  slidesPerView: "auto",
-  coverflowEffect: {
-    rotate: 0,
-    stretch: 0,
-    depth: 150,
-    modifier: 1,
-    slideShadows: true,
-  },
-  navigation: {
-    nextEl: ".mainSwiper-button-next", // CSS selector for the next button
-    prevEl: ".mainSwiper-button-prev", // CSS selector for the previous button
-  },
-  loop: true,
-  initialSlide: 2,
-});
-
+      // Initialize Swiper
+      var swiper = new Swiper(".mainSwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 0,
+          stretch: 0,
+          depth: 150,
+          modifier: 1,
+          slideShadows: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+      },
+        loop: true,
+        initialSlide: 2,
+      });
+      
 
       // Check if the screen size is mobile and update swiper options
       function updateSwiper() {
