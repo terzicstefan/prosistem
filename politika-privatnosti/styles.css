@@ -1,0 +1,59 @@
+.politika-privatnosti-section {
+    padding: 3% 10%;
+}
+
+.politika-privatnosti-section h2 {
+    text-align: center;
+    font-size: 35px;
+    color:#BF1E37;
+}
+
+.politika-privatnosti-section p {
+    color:#000;
+    font-size: 22px;
+}
+
+#element-top {
+    position: absolute;
+    width: 117px;
+    height:92px;
+    right: 0;
+}
+
+#element-bot {
+    position: absolute;
+    width: 70px;
+    height: 214px;
+    right: 0;
+    bottom: -20vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .politika-privatnosti-section {
+        padding: 25% 5%;
+    }
+    
+    .politika-privatnosti-section h2 {
+        font-size: 25px;
+
+    }
+    .politika-privatnosti-section p {
+        font-size: 16px;
+    }
+    #element-top {
+        position: absolute;
+        width: 70px;
+        height: 60px;
+        top:20%;
+        opacity: 0.3;
+    }   
+    
+    #element-bot {
+        position: absolute;
+        right: 0;
+        width: 60px;
+        height:180px;
+        opacity: 0.3;
+        top:80%;
+    }
+}

@@ -1,0 +1,118 @@
+[
+  {
+    "title": "Hotel Lazure #1",
+    "year": "2021",
+    "images": ["/images/hotel-lazure1.png", "/images/hotel-lazure2.png", "/images/hotel-lazure3.png"],
+    "description": "Ugradnja kompletnog ventilacionog sistema i sistema klimatizacije",
+    "learnMoreUrl": "#",
+    "featured": false
+
+  },
+  {
+    "title": "Restoran Lanterna #2",
+    "year": "2023",
+    "images": ["/images/restoran-lanterna1.png", "/images/restoran-lanterna2.png", "/images/restoran-lanterna3.png"],
+    "description": "Ugradnja kompletnog ventilacionog sistema i sistema klimatizacije",
+    "learnMoreUrl": "#",
+    "featured": true
+  },
+  {
+    "title": "Hotel Voco #3",
+    "year": "2023",
+    "images": ["/images/hotel-voco1.png", "/images/hotel-voco2.png", "/images/hotel-voco3.png"],
+    "description": "Ugradnja kompletnog ventilacionog sistema i sistema klimatizacije",
+    "learnMoreUrl": "#",
+    "featured": false
+
+  },
+  {
+    "title": "Restoran Test #4",
+    "year": "2023",
+    "images": ["/images/restoran-lanterna1.png", "/images/restoran-lanterna2.png", "/images/restoran-lanterna3.png"],
+    "description": "Ugradnja kompletnog ventilacionog sistema i sistema klimatizacije",
+    "learnMoreUrl": "#",
+    "featured": false
+
+  },
+  {
+    "title": "Restoran Test2 #5",
+    "year": "2021",
+    "images": ["/images/restoran-lanterna1.png", "/images/restoran-lanterna2.png", "/images/restoran-lanterna3.png"],
+    "description": "Ugradnja kompletnog ventilacionog sistema i sistema klimatizacije",
+    "learnMoreUrl": "#"
+    ,    "featured": false
+
+  },
+  {
+    "title": "Hotel Lazure #1",
+    "year": "2021",
+    "images": ["/images/hotel-lazure1.png", "/images/hotel-lazure2.png", "/images/hotel-lazure3.png"],
+    "description": "Ugradnja kompletnog ventilacionog sistema i sistema klimatizacije",
+    "learnMoreUrl": "#",
+    "featured": false
+
+  },
+  {
+    "title": "Restoran Lanterna #2",
+    "year": "2023",
+    "images": ["/images/restoran-lanterna1.png", "/images/restoran-lanterna2.png", "/images/restoran-lanterna3.png"],
+    "description": "Ugradnja kompletnog ventilacionog sistema i sistema klimatizacije",
+    "learnMoreUrl": "#",
+    "featured": false
+
+  },
+  {
+    "title": "Hotel Voco #3",
+    "year": "2023",
+    "images": ["/images/hotel-voco1.png", "/images/hotel-voco2.png", "/images/hotel-voco3.png"],
+    "description": "Ugradnja kompletnog ventilacionog sistema i sistema klimatizacije",
+    "learnMoreUrl": "#",
+    "featured": false
+
+  },
+  {
+    "title": "Restoran Test #4",
+    "year": "2023",
+    "images": ["/images/restoran-lanterna1.png", "/images/restoran-lanterna2.png", "/images/restoran-lanterna3.png"],
+    "description": "Ugradnja kompletnog ventilacionog sistema i sistema klimatizacije",
+    "learnMoreUrl": "#",
+    "featured": false
+
+  },
+  {
+    "title": "Hotel Lazure #1",
+    "year": "2021",
+    "images": ["/images/hotel-lazure1.png", "/images/hotel-lazure2.png", "/images/hotel-lazure3.png"],
+    "description": "Ugradnja kompletnog ventilacionog sistema i sistema klimatizacije",
+    "learnMoreUrl": "#",
+    "featured": false
+
+  },
+  {
+    "title": "Restoran Lanterna #2",
+    "year": "2023",
+    "images": ["/images/restoran-lanterna1.png", "/images/restoran-lanterna2.png", "/images/restoran-lanterna3.png"],
+    "description": "Ugradnja kompletnog ventilacionog sistema i sistema klimatizacije",
+    "learnMoreUrl": "#",
+    "featured": false
+
+  },
+  {
+    "title": "Hotel Voco #3",
+    "year": "2023",
+    "images": ["/images/hotel-voco1.png", "/images/hotel-voco2.png", "/images/hotel-voco3.png"],
+    "description": "Ugradnja kompletnog ventilacionog sistema i sistema klimatizacije",
+    "learnMoreUrl": "#",
+    "featured": false
+
+  },
+  {
+    "title": "Restoran Test #4",
+    "year": "2023",
+    "images": ["/images/restoran-lanterna1.png", "/images/restoran-lanterna2.png", "/images/restoran-lanterna3.png"],
+    "description": "Ugradnja kompletnog ventilacionog sistema i sistema klimatizacije",
+    "learnMoreUrl": "#",
+    "featured": false
+
+  }
+]

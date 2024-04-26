@@ -1,0 +1,291 @@
+.usluge-section {
+  padding: 3% 10%;
+  position: relative;
+  padding-bottom: 25vh;
+}
+
+.usluge-section {
+  display: flex;
+}
+
+.horizontal-line {
+  display: flex;
+  align-items: center;
+}
+
+.usluge-section__inner {
+  display: flex;
+}
+
+.horizontal-line hr {
+  width: 65%;
+  height: 2px;
+  margin-left: 5px;
+  border: none;
+  background-color: #bf1e37;
+}
+
+.usluge-text {
+  margin-left: 4vw;
+  z-index: 1;
+  width: 50%;
+}
+
+.usluge-text h4 {
+  font-size: 32px;
+  color: #000;
+  margin: 0;
+  font-weight: 600;
+}
+
+.usluge-text h2 {
+  font-size: 45px;
+  color: #000;
+  margin: 0;
+  font-weight: 600;
+}
+
+.usluge-text p {
+  font-size: 16px;
+  color: #000;
+  line-height: 27px;
+  font-family: "Varta";
+}
+
+.usluge-text button {
+  background-color: #bf1e37;
+  color: #fff;
+  font-size: 21px;
+  border: none;
+  padding: 7px 15px;
+  cursor: pointer;
+  font-weight: 400;
+  transition: 0.3s;
+}
+
+.usluge-text button:hover {
+  opacity: 0.9;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+.usluge-image img {
+  width: 100%;
+  height: 585px;
+}
+
+#left-black-circles {
+  position: absolute;
+  width:230px;
+  left: 0;
+  bottom: -15vh;
+}
+
+#right-lines {
+  position: absolute;
+  right: 0;
+  width: 150px;
+  top: 0;
+}
+
+/*Usluge prednosti sekcija*/
+
+.usluge-prednosti {
+  min-height: 600px;
+  z-index: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  background: url("/images/usluge-prednosti-bg2.png");
+  background-size: cover;
+  color: #fff;
+}
+.usluge-prednosti__icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.usluge-prednosti__heading {
+    margin-left: 5vw;
+}
+
+.usluge-prednosti__heading h4{
+    font-size: 32px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.usluge-prednosti__heading h2 {
+    font-size: 64px;
+    margin:0;
+}
+
+
+
+.usluge-icon {
+    height: 160px;
+    color: #fff;
+    text-align: center;
+    margin:25px;
+
+  }
+  
+  .usluge-icon h4 {
+    text-align: center;
+    font-size: 23px;
+    font-family: Inter;
+    font-weight: 400;
+  }
+  
+  .usluge-icon img {
+    max-height: 80px;
+  }
+
+
+@media only screen and (max-width: 768px) {
+    .usluge-section {
+        padding: 3% 5%;
+        position: relative;
+        padding-bottom: 5vh;
+        height: auto;
+        padding-top: 15vh;
+      }
+      
+      .usluge-section {
+        display: flex;
+      }
+      
+      .horizontal-line {
+        display: flex;
+        align-items: center;
+      }
+      
+      .usluge-section__inner {
+        display: flex;
+        flex-direction: column-reverse;
+      }
+      
+      .horizontal-line hr {
+        width: 65%;
+        height: 2px;
+        margin-left: 5px;
+        border: none;
+        background-color: #bf1e37;
+      }
+      
+      .usluge-text {
+        margin-left: 0;
+        z-index: 1;
+        width: 100%;
+      }
+      
+      .usluge-text h4 {
+        font-size: 24px;
+        color: #000;
+        margin: 0;
+        font-weight: 500;
+        
+      }
+      
+      .usluge-text h2 {
+        font-size: 35px;
+        color: #000;
+        margin: 0;
+        font-weight: 500;
+      }
+      
+      .usluge-text p {
+        font-size: 14px;
+        color: #000;
+        line-height: 27px;
+        font-family: "Varta";
+        text-align: justify;
+
+      }
+      
+      .usluge-text button {
+        background-color: #bf1e37;
+        color: #fff;
+        font-size: 16px;
+        border: none;
+        padding: 7px 15px;
+        cursor: pointer;
+        font-weight: 400;
+        transition: 0.3s;
+        margin-bottom: 20px;
+      }
+      
+      .usluge-text button:hover {
+        opacity: 0.9;
+        border-radius: 3px;
+        transition: 0.3s;
+      }
+      
+      .usluge-image img {
+        width: 100%;
+        height: auto;
+        z-index: 1;
+      }
+      
+      #left-black-circles {
+       display: none;
+      }
+      
+      #right-lines {
+        position: absolute;
+        right: 0;
+        width: 75px;
+        top: 25vh;
+        opacity: 0.3;
+      }
+      
+      .usluge-prednosti {
+        padding: 0 5%;
+        flex-direction: column-reverse;
+
+      }
+      .usluge-prednosti__icons{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      .usluge-prednosti__heading {
+          margin-left: 0;
+          margin-bottom: 10vh;
+      }
+      
+      .usluge-prednosti__heading h4{
+          font-size: 24px;
+          font-weight: 400;
+          margin: 0;
+      }
+      
+      .usluge-prednosti__heading h2 {
+          font-size: 40px;
+          margin:0;
+      }
+      
+     
+
+      .usluge-icon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 90px;
+        justify-content: center;
+        margin-left: 0vw;
+    }
+  
+    .usluge-icon h4 {
+        font-size: 14px;
+        margin-left: 0%;
+        margin-top: 20px;
+    }
+  
+    .usluge-icon img {
+        max-height: 60px;
+        margin-left: 0;
+    }
+}
