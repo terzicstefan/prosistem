@@ -694,6 +694,12 @@ header {
   text-align: center;
 }
 
+
+
+.swiper-button-prev, .swiper-button-next {
+  display: none !important;
+}
+
 /*Reference sekcija*/
 .reference-section {
   background: url(/images/reference-pozadina.png);
@@ -1279,6 +1285,28 @@ footer {
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.swiper-button-next {
+  display: block !important;
+  color: #bf1e37 !important;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: 0;
+  opacity: 0.5;
+
+}
+
+.swiper-button-prev {
+  display: block !important;
+
+  color: #bf1e37 !important;
+  opacity: 0.5;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 0;
 }
 
 .mainSwiper .swiper-wrapper .swiper-slide {
