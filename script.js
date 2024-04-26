@@ -163,8 +163,8 @@ var swiper = new Swiper(".mainSwiper", {
     slideShadows: true,
   },
   navigation: {
-    nextEl: ".swiper-button-next", // CSS selector for the next button
-    prevEl: ".swiper-button-prev", // CSS selector for the previous button
+    nextEl: ".mainSwiper-button-next", // CSS selector for the next button
+    prevEl: ".mainSwiper-button-prev", // CSS selector for the previous button
   },
   loop: true,
   initialSlide: 2,

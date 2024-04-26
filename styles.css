@@ -696,7 +696,7 @@ header {
 
 
 
-.swiper-button-prev, .swiper-button-next {
+.mainSwiper-button-prev, .mainSwiper-button-next {
   display: none !important;
 }
 
@@ -1287,7 +1287,7 @@ footer {
   padding-bottom: 50px;
 }
 
-.swiper-button-next {
+.mainSwiper-button-next {
   display: block !important;
   color: #bf1e37 !important;
   width: 100px;
@@ -1298,7 +1298,7 @@ footer {
 
 }
 
-.swiper-button-prev {
+.mainSwiper-button-prev {
   display: block !important;
 
   color: #bf1e37 !important;
