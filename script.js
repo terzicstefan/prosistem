@@ -14,9 +14,27 @@ document.addEventListener("DOMContentLoaded", function() {
           slide.classList.remove("active-slide");
         }
       });
+    
+      // Calculate the translation value for the slides container
+      const slideWidth = slides[0].offsetWidth;
+      const offset = index * slideWidth; // Adjusted to move in the opposite direction
+      document.querySelector(".slides").style.transform = `translateX(-${offset}px)`; // Negate the offset
+    
       currentIndex = index;
       updateDots();
+    
+      // Hide slides on the other side
+      for (let i = 0; i < slides.length; i++) {
+        if (i < index || i > index) {
+          slides[i].style.opacity = 0; // Hide slides
+        } else {
+          slides[i].style.opacity = 1; // Show active slide
+        }
+      }
     }
+    
+    
+    
  
     function updateDots() {
       const dots = document.querySelectorAll(".dot");

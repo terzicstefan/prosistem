@@ -487,17 +487,18 @@ header {
 
 .slides {
   display: flex;
-  transition: transform 0.5s ease;
+  transition: transform 0.5s ease; /* Add transition for smooth animation */
 }
 
 .slide {
   flex: 0 0 100%;
-  display: none;
   height: auto;
+  opacity: 0;
 }
 
 .active-slide {
-  display: block !important;
+  display: block; /* Remove !important */
+  opacity: 1;
 }
 
 .slide-content {
