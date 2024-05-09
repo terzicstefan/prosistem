@@ -14,7 +14,6 @@
   
   .modal-content {
     position: relative;
-    background-color: #fefefe;
     margin: auto;
     padding: 0;
     width: 90%;
@@ -46,8 +45,8 @@
     object-fit: cover;
   }
   
-  .prev,
-  .next {
+  
+  .next, .prev-light {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -66,8 +65,14 @@
     right: 0;
     border-radius: 3px 0 0 3px;
   }
+
+  .prev-light {
+    left: 0;
+  }
+
+ 
   
-  .prev:hover,
+  .prev-light:hover,
   .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
   }
@@ -94,7 +99,6 @@
   
   @media only screen and (max-width: 768px) {
     .modal-content {
-      background-color: #fefefe;
       margin: 30% 10% 30% 0;
       padding: 0;
       width: 100%;

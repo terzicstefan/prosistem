@@ -8,10 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 const slide = document.createElement('div');
                 slide.classList.add('swiper-slide');
 
-                // Check if the item is featured
-                if (item.featured) {
-                    slide.classList.add('featured'); // Add the 'featured' class to the slide
-                }
+               
 
                 // Create image container
                 const imageContainer = document.createElement('div');
@@ -36,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 // Create year
                 const year = document.createElement('h4');
-                year.textContent = `Year: ${item.year}`;
+                year.textContent = item.year;
 
                 // Create description
                 const description = document.createElement('p');
@@ -65,6 +62,12 @@ document.addEventListener('DOMContentLoaded', function () {
                 slide.appendChild(buttonContainer);
                 // Append the slide to the swiper wrapper
                 swiperWrapper.appendChild(slide);
+
+                // Add click event listener to slide
+                slide.addEventListener('click', function () {
+                    window.location.href = item.learnMoreUrl;
+                    console.log("YES");
+                });
             });
 
             // Initialize Swiper

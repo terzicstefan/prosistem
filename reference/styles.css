@@ -4,6 +4,11 @@
   height: auto;
 }
 
+.link-to-element  {
+  text-decoration: none;
+  color: #000;
+}
+ 
 .horizontal-line {
   display: flex;
   align-items: center;
@@ -82,7 +87,7 @@
 }
 
 .info-num-box__single h5 {
-  font-size: 24px;
+  font-size: 22px;
   color: #fff;
   font-weight: 400;
   margin: 0;
@@ -125,7 +130,7 @@
 .horizontal-line-utisci hr {
   width: 22%;
   height: 2px;
-  margin-left: 5px;
+  margin-left: 10px !important;
   border: none;
   background-color: #bf1e37;
   margin-left: 0;
@@ -223,6 +228,8 @@
   position: relative;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+  transition: 0.3s;
+
 }
 
 .swiper-slide img {
@@ -235,6 +242,10 @@
 .slide-images {
   display: flex;
   height: 218px;
+}
+
+.slide-images:hover {
+  cursor: pointer;
 }
 
 .slide-images img {
@@ -300,13 +311,13 @@
   width: 25px;
   margin-left: 10px;
 }
+/*Feautred
 
 .featured .slide-content {
   background-color: #2d2d30;
   border: none;
   max-width: 100%;
 }
-
 .featured .slide-content h2 {
   color: #fff;
 }
@@ -327,6 +338,32 @@
 .featured .button-container img {
   filter: brightness(0) invert(100%);
 }
+
+*/
+
+.swiper-slide:hover .slide-content  {
+  background-color: #2d2d30;
+  transition: 0.3s;
+  cursor: pointer;
+  color: #fff !important;
+}
+
+.swiper-slide:hover .button-container  {
+  background-color: #bf1e37;
+  transition: 0.3s;
+  cursor: pointer;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.swiper-slide:hover .button-container a {
+  color: #fff !important;
+}
+
+.swiper-slide:hover .button-container img {
+  filter: brightness(0) invert(100%);
+}
+
 
 .swiper-button-next.swiper-button-next-disabled,
 .swiper-button-prev.swiper-button-prev-disabled {
@@ -462,6 +499,7 @@
   .info-num-box__single {
     width: 33%;
     text-align: center;
+    margin: 0 5px;
   }
   .info-num-box__single h3 {
     color: #fff;
@@ -487,13 +525,11 @@
   }
 
   #right-lines-reference {
-    position: absolute;
-    width: 120px;
-    opacity: 0.3;
+    display: none;
   }
 
   .utisci-recenzije-section {
-    padding: 3% 5%;
+    padding: 10% 5%;
     text-align: center;
     background: url("/images/utisci-recenzijebg.png");
     background-size: cover;
@@ -525,6 +561,7 @@
     font-size: 35px;
     margin: 0;
     font-weight: 500;
+    margin-bottom: 3vh;
     color: #fff;
   }
 
@@ -536,7 +573,7 @@
   .utisci-card {
     background-color: #fff;
     padding: 3vh 3vh;
-    margin: 5vh 2vh;
+    margin: 2vh;
   }
 
   .utisci-card h2 {
@@ -587,6 +624,7 @@
     flex-direction: row !important;
     padding: 50px 0;
     position: relative;
+    margin-left: -7px;
   }
 
   .swiper-slide {
@@ -606,7 +644,7 @@
     position: relative;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    max-width: 90% !important;
+    max-width: 95% !important;
   }
 
   .swiper-slide img {
@@ -619,7 +657,7 @@
   .slide-images {
     display: flex;
     height: 218px;
-    width: 91%;
+    width: 96%;
   }
 
   .slide-images img {
@@ -681,7 +719,7 @@
     right: 0;
     left: 0;
     z-index: 1;
-    width: 90%;
+    width: 100%;
   }
 
   .button-container img {
@@ -689,8 +727,10 @@
     margin-left: 10px;
   }
 
+  /*Feautred
+
   .featured .slide-images {
-    width: 90%;
+    width: 95%;
   }
 
   .featured .slide-content {
@@ -711,6 +751,7 @@
     background-color: #bf1e37;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    width: 95%;
   }
   .featured .button-container a {
     color: #fff !important;
@@ -718,7 +759,7 @@
   .featured .button-container img {
     filter: brightness(0) invert(100%);
   }
-
+*/
   .swiper-button-next.swiper-button-next-disabled,
   .swiper-button-prev.swiper-button-prev-disabled {
     opacity: 0.5; /* Reduce opacity when disabled */
@@ -735,7 +776,7 @@
   .swiper-button-next::after {
     content: url("/images/red-right-arrow.png") !important; /* Use your custom image */
     position: absolute;
-    scale: 0.5;
+    scale: 0.6;
     right: -25px;
   }
 
@@ -743,7 +784,7 @@
     content: url("/images/red-left-arrow.png") !important; /* Use your custom image */
     position: absolute;
     left: -30px;
-    scale: 0.5;
+    scale: 0.6;
   }
 
   .reference-heading {
@@ -768,9 +809,6 @@
   }
 
   #right-lines-element {
-    position: absolute;
-    right: 0;
-    width: 130px;
-    opacity: 0.3;
+    display: none;
   }
 }

@@ -4,7 +4,7 @@
     "year": "2021",
     "images": ["/images/hotel-lazure1.png", "/images/hotel-lazure2.png", "/images/hotel-lazure3.png"],
     "description": "Ugradnja kompletnog ventilacionog sistema i sistema klimatizacije",
-    "learnMoreUrl": "#",
+    "learnMoreUrl": "#14",
     "featured": false
 
   },
@@ -13,7 +13,7 @@
     "year": "2023",
     "images": ["/images/restoran-lanterna1.png", "/images/restoran-lanterna2.png", "/images/restoran-lanterna3.png"],
     "description": "Ugradnja kompletnog ventilacionog sistema i sistema klimatizacije",
-    "learnMoreUrl": "#",
+    "learnMoreUrl": "#532",
     "featured": true
   },
   {
@@ -21,7 +21,7 @@
     "year": "2023",
     "images": ["/images/hotel-voco1.png", "/images/hotel-voco2.png", "/images/hotel-voco3.png"],
     "description": "Ugradnja kompletnog ventilacionog sistema i sistema klimatizacije",
-    "learnMoreUrl": "#",
+    "learnMoreUrl": "#2g",
     "featured": false
 
   },

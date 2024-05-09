@@ -291,7 +291,7 @@ header {
 
 .hero-section__text {
   position: absolute;
-  left: 10%;
+  left: 10.5%;
   top: 45vh;
 }
 
@@ -474,7 +474,6 @@ header {
 /*Slider sekcija*/
 .slider-section {
   padding: 5% 10%;
-  min-height: 300px;
 }
 
 .slider {
@@ -482,6 +481,8 @@ header {
   width: 100%;
   overflow: hidden;
   display: flex;
+  min-height: 55vh;
+  height: auto;
 }
 
 .slides {
@@ -502,12 +503,12 @@ header {
 .slide-content {
   flex: 0 0 100%;
   padding: 20px;
+  color: #000;
 }
 
 .slide-content h2 {
   font-size: 35px;
   font-weight: 400;
-  color: #000;
 }
 
 .slide-content p {
@@ -892,6 +893,7 @@ footer {
 /*Bottom footer*/
 .bottom-footer {
   display: flex;
+  justify-content: center;
   align-items: center;
   color: #fff;
   font-size: 16px;
@@ -963,6 +965,7 @@ footer {
   .main-header {
     position: fixed;
     top: 0;
+    opacity: 1;
   }
 
   .logo-section img {
@@ -1024,7 +1027,7 @@ footer {
   .mobile-menu.show ul {
     padding-right: 40px;
     margin-left: -15%;
-    margin-top: 50%;
+    margin-top: 40%;
   }
 
   .mobile-menu__social-icons {
@@ -1517,6 +1520,10 @@ footer {
   .bottom-footer__single-middle {
     padding: 0 5%;
     width: auto;
+  }
+
+  .bottom-footer__single-middle p {
+    font-size: 12px;
   }
 
   /*Partneri sekcija*/

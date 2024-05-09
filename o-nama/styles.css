@@ -152,7 +152,8 @@ bottom: 0%;
   }
 
   .flex-align h4 {
-    font-size: 35px;
+    font-size: 24px;
+    width: 100%;
     margin: 0 40px 0 0;
     font-weight: 400;
     text-align: center;
@@ -178,10 +179,16 @@ bottom: 0%;
     align-items: center;
   }
 
-  
+  .onama-utisak-recenzije {
+    width: 50%;
+  }
+  .onama-utisak-gallery{
+    width: 50%;
+  }
   .onama-utisak-gallery img {
-    width: 735px;
-    height: 750px;
+    width: 100%;
+    height: auto;
+    z-index: 5;
   }
 
   .onama-utisak-recenzije h4 {
@@ -202,6 +209,8 @@ bottom: 0%;
     font-size: 16px;
     width: 80%;
     margin-left: 5%;
+    font-family: 'Varta';
+    line-height: 27px;
   }
 
   .utisak-quote img {
@@ -238,9 +247,10 @@ bottom: 0%;
   }
   #right-circles-square {
     position: absolute;
-    height: 254px;
+    height: 214px;
     right: 0;
     bottom: 40px;
+    z-index: 1;
   }
 
   @media only screen and (max-width: 768px) {
@@ -278,6 +288,7 @@ bottom: 0%;
       .ko-smo-mi__content {
         margin-left: 0;
         z-index: 1;
+        width: 100%;
       }
       
       .ko-smo-mi__content h4 {
@@ -307,10 +318,12 @@ bottom: 0%;
         cursor: pointer;
         font-weight: 400;
       }
-      
+      .ko-smo-mi__gallery {
+        width: 100%;
+      }
       .ko-smo-mi__gallery img {
-        width: 90%;
-        height: 90%;
+        width: 100%;
+        height: 100%;
         margin: 50px 0;
       }
       
@@ -372,7 +385,7 @@ bottom: 0%;
       
       
         .onama-rezultati-heading h4 {
-          font-size: 24px;
+          font-size: 20px;
           margin: 0;
       
         }
@@ -416,11 +429,13 @@ bottom: 0%;
           align-items: center;
           flex-direction: column;
         }
-      
+        .onama-utisak-gallery {
+          width: 100%;
+        }
         
         .onama-utisak-gallery img {
-          width: 90%;
-          height: 90%;
+          width: 100%;
+          height: 100%;
         }
       
         .onama-utisak-recenzije h4 {
@@ -433,10 +448,14 @@ bottom: 0%;
           margin: 0;
       
       }
+    .onama-utisak-recenzije {
+      width: 100%;
+      margin-bottom: 8vh;
+    }
       
         .utisak-quote p {
           font-size: 16px;
-          width: 80%;
+          width: 90%;
           margin-left: 10%;
         }
       
@@ -467,11 +486,7 @@ bottom: 0%;
         }
       
         #left-lines-bottom {
-          position: absolute;
-          height: 70px;
-          left: -30px;
-          opacity: 0.3;
-          top: 30px;
+          display: none;
         }
         #right-circles-square {
           display: none;
