@@ -195,7 +195,7 @@ header {
 }
 
 .logo-section {
-  margin-left: 5%;
+  margin-left:102px;
 }
 
 .logo-section img {
@@ -250,7 +250,9 @@ header {
 
 /*Hero sekcija*/
 .hero-section {
-  height: 90vh;
+  min-height: 90vh;
+  height: auto;
+  padding-bottom: 10px;
   background-size: cover;
   text-align: left;
   margin-top: -106px;
@@ -291,7 +293,7 @@ header {
 
 .hero-section__text {
   position: absolute;
-  left: 10.5%;
+  left: 200px;
   top: 45vh;
 }
 
@@ -969,6 +971,10 @@ footer {
     opacity: 1;
   }
 
+  .logo-section {
+    margin-left: 5%;
+  }
+
   .logo-section img {
     width: 70%;
     height: auto;
@@ -1073,7 +1079,7 @@ footer {
   /*Hero section*/
 
   .hero-section {
-    height: 80vh;
+    height: 70vh;
     background-size: cover;
     text-align: left;
     margin-top: 0px;
@@ -1084,7 +1090,7 @@ footer {
     position: absolute;
     left: auto;
     right: auto;
-    top: 35vh;
+    top: 40vh;
   }
 
   .hero-section h2 {

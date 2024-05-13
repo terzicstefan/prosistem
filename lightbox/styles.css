@@ -16,7 +16,7 @@
     position: relative;
     margin: auto;
     padding: 0;
-    width: 90%;
+    width: 30%;
     max-width: 1200px;
   }
   
@@ -41,8 +41,8 @@
   }
   
   .mySlides img {
-    height: 800px;
-    object-fit: cover;
+    max-height: 800px;
+    object-fit: contain;
   }
   
   
