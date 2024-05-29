@@ -12,6 +12,11 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!-- Google Fonts -->
     <link rel="stylesheet" href="/fonts/styles.css" />
 
@@ -36,14 +41,14 @@
           <a class=" hide-mobile" href="mailto:prosistemist@gmail.com">prosistemist@gmail.com</a>
           <a class="language" href="/">CG</a>|
           <!-- Language Links -->
-          <a class="language-active" href="/en/">EN</a>|
+          <a class="language-active" href=".">EN</a>|
           <a href="/ru/">RU</a>
         </div>
       </div>
       <div class="main-header">
         <!-- Logo Section -->
         <div class="logo-section slide-in-blurred-top">
-          <img src="/images/Pro-sistem-logo.png" alt="Pro sistem Logo" />
+          <img src="/images/prosistemfinal1.png" alt="Pro sistem Logo" />
         </div>
         <div class="mobile-menu-btn slide-in-blurred-right" onclick="toggleMobileMenu()">
           <i id="menu-icon" class="fas fa-bars"></i> </div>
@@ -52,48 +57,71 @@
           <nav>
             <ul>
               <li>
-                <a class="hover-underline-animation" href="/">Naslovna</a>
+                <a class="hover-underline-animation" href="/en/">Home</a>
               </li>
-              <li><a class="hover-underline-animation" href="/usluge/">Usluge</a></li>
-              <li><a class="hover-underline-animation" href="/o-nama/">O nama</a></li>
+              <li><a class="hover-underline-animation" href="./services/">Services</a></li>
+              <li><a class="hover-underline-animation" href="./about-us/">About us</a></li>
               <li>
-                <a class="hover-underline-animation" href="/reference/">Reference</a>
+                <a class="hover-underline-animation" href="./references/">References</a>
               </li>
-              <li><a class="hover-underline-animation" href="/kontakt/">Kontakt</a></li>
+              <li><a class="hover-underline-animation" href="./contact/">Contact</a></li>
             </ul>
           </nav>
         </div>
       </div>
 
      
- 
-
-  <!-- Mobile Menu -->
-  <nav class="mobile-menu">
-    <ul>
-      <li><a href="/">Naslovna</a></li>
-      <li><a href="/usluge/">Usluge</a></li>
-      <li><a href="/o-nama/">O nama</a></li>
-      <li><a href="/reference/">Reference</a></li>
-      <li><a href="/kontakt/">Kontakt</a></li>
-    </ul>
-  </nav>
+      <nav class="mobile-menu">
+        <div class="mobile-menu__logo">
+          <img src="/images/mobile-logo.png" alt="logo pro sistem" />
+        </div>
+        <ul>
+          <li><a href="/en/">Home</a></li>
+          <li><a href="./services/">Services</a></li>
+          <li><a href="./about-us">About us</a></li>
+          <li><a href="./references/">References</a></li>
+          <li><a href="./contact/">Contact</a></li>
+        </ul>
+        <div class="info-mobile-menu">
+          <div class="mobile-menu__social-icons">
+            <img src="/images/social-icons/instagram.png" alt="instagram" />
+            <img src="/images/social-icons/tiktok.png" alt="tiktok" />
+            <img src="/images/social-icons/facebook.png" alt="facebook" />
+            <img src="/images/social-icons/youtube.png" alt="youtube" />
+          </div>
+          <div class="mobile-menu__contact">
+            <a href="mailto:prosistemist@gmail.com"
+              ><h4>prosistemist@gmail.com</h4></a
+            >
+            <a href="tel:+38268083579"><h4>+382 68 083 579</h4></a>
+          </div>
       
+          <!-- Language Links -->
+          <div class="mobile-menu__language">
+            <a  href="/">CG</a>| <a  class="language-active"  href=".">EN</a>|
+            <a href="/ru/">RU</a>
+          </div>
+        </div>
+      </nav>
+  
+  
     </header>
     <!-- Hero Section -->
-    <div class="hero-section">
+    <div class="hero-section slideshow">
       <div class="hero-section__text">
-        <h4 class="tracking-in-expand">Instalacija ventilacionih sistema</h4>
-        <h2 class="tracking-in-expand">Pro sistem - sistem kojem vjerujemo</h2>
+        <h4 class="tracking-in-expand">Installation of ventilation systems
+        </h4>
+        <h2 class="tracking-in-expand">Pro sistem - a system we trust
+        </h2>
       </div>
     </div>
     <div class="second-section">
-      <h2>Najbolje rešenje</h2>
+      <h2>Best solution</h2>
       <p>
-        Bez obzira da li su u pitanju ventilacija i klimatizacija stambenih ili
-        poslovnih prostora, kao i industrijskih objekata, naš tim stručnjaka
-        posvećen je pružanju najboljih mogućih rješenja, vodeći računa o
-        energetskoj efikasnosti
+        Regardless of whether it is ventilation and air conditioning for residential or
+        business premises, as well as industrial facilities, our team of experts
+        is dedicated to providing the best possible solutions, taking care of
+        energy efficiency
       </p>
     </div>
 
@@ -101,23 +129,23 @@
     <div class="icons-section">
       <div class="icons-section__single">
         <img src="/images/icon1.png" alt="icon" />
-        <h4>Nečujni Rad</h4>
+        <h4>Energy saving</h4>
       </div>
       <div class="icons-section__single">
         <img src="/images/icon2.png" alt="icon" />
-        <h4>Brza Postavka</h4>
+        <h4>Silent work</h4>
       </div>
       <div class="icons-section__single">
         <img src="/images/icon3.png" alt="icon" />
-        <h4>Ušteda Energije</h4>
+        <h4>Quick setup</h4>
       </div>
       <div class="icons-section__single">
         <img src="/images/icon4.png" alt="icon" />
-        <h4>Bez Promaje</h4>
+        <h4>No draft</h4>
       </div>
       <div class="icons-section__single">
         <img src="/images/icon5.png" alt="icon" />
-        <h4>Lako Održavanje</h4>
+        <h4>Easy Maintenance</h4>
       </div>
     </div>
 
@@ -128,7 +156,7 @@
           <hr />
         </div>
         <div>
-          <h2>Usluge</h2>
+          <h2>Services</h2>
         </div>
       </div>
       <div class="services-section__align">
@@ -136,41 +164,46 @@
           id="services-section__single-num1"
           class="services-section__single"
         >
-          <h3>Prodaja opreme</h3>
+          <h3>Sale of equipment</h3>
           <p>
-            Oprema za sve vrste ventilacionih i sistema klimatizacije prostora
-          </p>
-          <button>Prodavnica</button>
+            Equipment for all types of ventilation and air conditioning systems          </p>
+          <button>Shop</button>
         </div>
         <div
           id="services-section__single-num2"
           class="services-section__single"
         >
-          <h3>Ugradnja</h3>
-          <p>Instalacija sistema za klimatizovanje prostora</p>
-          <button>Ugradnja</button>
+          <h3>Installation</h3>
+          <p>Installation of the air conditioning system</p>
+          <button>Installation</button>
         </div>
         <div
           id="services-section__single-num3"
           class="services-section__single"
         >
-          <h3>Servis</h3>
-          <p>Servisiranje i održavanje ventilacionih sistema</p>
-          <button>Servisiranje</button>
+          <h3>Service</h3>
+          <p>Servicing and maintenance of ventilation systems</p>
+          <button>Servicing</button>
         </div>
         <div
           id="services-section__single-num4"
           class="services-section__single"
         >
-          <h3>Projektovanje</h3>
-          <p>Idejna izrada sistema prilagođenih za vaš poslovni prostor</p>
-          <button>Projektovanje</button>
+          <h3>Projecting</h3>
+          <p>Concept development of systems adapted for your business premises</p>
+          <button>Projecting</button>
         </div>
       </div>
     </div>
     <!-- Slider Section -->
     <div class="slider-section">
-      <div class="dots"></div>
+      <div class="mobile-controls">
+        <div class="dots"></div>
+        <div class="controls-mobile">
+          <div class="prev-mobile">&#10094;</div>
+          <div class="next-mobile">&#10095;</div>
+        </div>
+      </div>
       <div class="slider">
         <div class="slides">
           <div class="slide">
@@ -180,25 +213,22 @@
                   <hr />
                 </div>
                 <div>
-                  <h2>Zašto je to bitno?</h2>
+                  <h2>Why does it matter?</h2>
                 </div>
               </div>
               <p>
-                Ventilacioni sistemi održavaju kvalitet vazduha, regulišu vlagu
-                i temperaturu, te pomažu u uklanjanju neprijatnih mirisa iz
-                prostora. Osnovna svrha ventilacije je poboljšanje kvaliteta
-                unutrašnjeg vazduha putem zamjene istog. Postoje različite vrste
-                sistema, uključujući prirodnu, mehaničku i balansiranu
-                ventilaciju. Uloga ventilacionih sistema nije samo tehnička, već
-                je ključna i za stvaranje ugodnog i zdravog unutrašnjeg
-                prostora. Pored učinkovitosti, ventilacioni sistemi danas su
-                neizostavan dio enterijera prostora koji imaju komercijalnu
-                svrhu. Pravilan izbor i održavanje ventilacijskih sistema
-                ključni su za dugoročnu učinkovitost.
+                Ventilation systems maintain air quality, regulate humidity
+ and temperature, and help to remove unpleasant odors from
+ space. The main purpose of ventilation is to improve quality
+ internal air by replacing it. There are different types
+ system, including natural, mechanical and balanced
+ ventilation. The role of ventilation systems is not only technical, but
+ is also key to creating a comfortable and healthy interior
+ space. In addition to efficiency, ventilation systems today are
+ an indispensable part of the interior of spaces that have a commercial
+ purpose. Proper selection and maintenance of ventilation systems
+ are key to long-term effectiveness.
               </p>
-            </div>
-            <div class="slide-image">
-              <img src="/images/slide-icon.png" alt="Slide 1" />
             </div>
           </div>
           <div class="slide">
@@ -220,10 +250,10 @@
                 tincidunt libero eget, pretium ipsum.
               </p>
             </div>
-            <div class="slide-image">
-              <img src="/images/slide-icon.png" alt="Slide 2" />
-            </div>
           </div>
+        </div>
+        <div class="slide-image">
+          <img src="/images/slide-icon.png" alt="Slide 1" />
         </div>
         <!-- Slider Controls -->
         <div class="controls">
@@ -239,69 +269,15 @@
           <hr />
         </div>
         <div>
-          <h2>Reference</h2>
+          <h2>References</h2>
         </div>
       </div>
-
-      <div class="reference-section__align">
-        <div class="reference-section__single reference-left-card">
-          <div class="reference-section__single-gallery">
-            <img src="/images/hotel-lazure1.png" alt="Hotel Lazure" />
-            <img src="/images/hotel-lazure2.png" alt="Hotel Lazure" />
-            <img src="/images/hotel-lazure3.png" alt="Hotel Lazure" />
-          </div>
-          <h2>Hotel Lazure</h2>
-          <h3>2021</h3>
-          <p>
-            Ugradnja kompletnog ventilacionog sistema i sistema klimatizacije
-          </p>
-          <div class="learn-more-btn">
-            <a href="#">Saznaj više</a>
-            <a href="#"
-              ><img src="/images/arrow-toright.png" alt="arrow-icon"
-            /></a>
-          </div>
-        </div>
-
-        <div class="reference-section__single featured-reference">
-          <!--Featured reference -->
-          <div class="reference-section__single-gallery">
-            <img src="/images/hotel-voco1.png" alt="Hotel Voco" />
-            <img src="/images/hotel-voco2.png" alt="Hotel Voco" />
-            <img src="/images/hotel-voco3.png" alt="Hotel Voco" />
-          </div>
-          <h2>Hotel Voco</h2>
-          <h3>2023</h3>
-          <p>
-            Ugradnja kompletnog ventilacionog sistema i sistema klimatizacije
-          </p>
-          <div class="learn-more-btn featured-reference-btn">
-            <a href="#">Saznaj više</a>
-            <a href="#">
-              <img src="/images/white-arrow-toright.png" alt="arrow-icon"
-            /></a>
-          </div>
-        </div>
-
-        <div id="align-lanterna" class="reference-section__single reference-right-card">
-          <div class="reference-section__single-gallery">
-            <img src="/images/restoran-lanterna1.png" alt="Restoran Lanterna" />
-            <img src="/images/restoran-lanterna2.png" alt="Restoran Lanterna" />
-            <img src="/images/restoran-lanterna3.png" alt="Restoran Lanterna" />
-          </div>
-          <h2>Restoran Lanterna</h2>
-          <h3>2023</h3>
-          <p>
-            Ugradnja kompletnog ventilacionog sistema i sistema klimatizacije
-          </p>
-          <div class="learn-more-btn">
-            <a href="#">Saznaj više</a>
-            <a href="#"
-              ><img src="/images/arrow-toright.png" alt="arrow-icon"
-            /></a>
-          </div>
-        </div>
+      <div class="swiper mainSwiper">
+        <div class="swiper-wrapper"></div>
+        <div class="swiper-button-prev custom-prev"></div>
+        <div class="swiper-button-next custom-next"></div>
       </div>
+      
     </div>
 
     <!--Partners  Section -->
@@ -311,45 +287,64 @@
           <hr />
         </div>
         <div>
-          <h2>Naši partneri</h2>
+          <h2>Our Partners</h2>
         </div>
       </div>
+      
+  <!--Logo slide section-->
 
-      <div class="partners-section__logos">
-        <img src="/images/logos/thermia-logo.png" alt="Thermia logo" />
-        <img src="/images/logos/energy-team.png" alt="Energy team logo" />
-        <img src="/images/logos/ening.png" alt="Ening logo" />
-        <img src="/images/logos/home-systems.png" alt="Home systems logo" />
-        <img src="/images/logos/proovent.png" alt="Proovent logo" />
+      <div class="logos">
+        <div class="logos-slide">
+          <img src="/images/logos/thermia-logo.png" alt="Thermia logo" />
+          <img src="/images/logos/energy-team.png" alt="Energy team logo" />
+          <img src="/images/logos/ening.png" alt="Ening logo" />
+          <img src="/images/logos/home-systems.png" alt="Home systems logo" />
+          <img src="/images/logos/proovent.png" alt="Proovent logo" />
+
+        </div>
+
+<div class="logos-slide">
+          <img src="/images/logos/thermia-logo.png" alt="Thermia logo" />
+          <img src="/images/logos/energy-team.png" alt="Energy team logo" />
+          <img src="/images/logos/ening.png" alt="Ening logo" />
+          <img src="/images/logos/home-systems.png" alt="Home systems logo" />
+          <img src="/images/logos/proovent.png" alt="Proovent logo" />
+
+        </div>
       </div>
     </div>
+
 
     <!--Footer -->
     <footer>
       <div class="footer-section">
         <div class="footer-radno-vrijeme">
-          <h3>Radno vrijeme</h3>
+          <h3>Working hours</h3>
           <div class="footer-radno-vrijeme__align">
             <div class="footer-radno-vrijeme__single">
-              <div>Pon-Sub:</div>
-              <div>08:16:00</div>
+              <div>Mon-Sat:</div>
+              <div>08h - 16h</div>
             </div>
             <div class="footer-radno-vrijeme__single">
-              <div>Nedelja:</div>
-              <div>Ne radimo</div>
+              <div>Saturday:</div>
+              <div>Not working</div>
             </div>
           </div>
         </div>
         <div class="footer-kontakt">
-          <h3>Kontakt</h3>
+          <h3>Contact</h3>
           <div class="border-kontakt">
-            <a href="mailto:prosistemist@gmail.com"><h4>prosistemist@gmail.com</h4></a>
+            <a href="mailto:prosistemist@gmail.com"
+              ><h4>prosistemist@gmail.com</h4></a
+            >
             <a href="tel:+38268083579"><h4>+382 68 083 579</h4></a>
-            <h4>PRO Sistem d.o.o., Starozlatička bb, 81000 Podgorica</h4>
+            <a href="https://maps.app.goo.gl/28yM8v9wHLydVHgSA"
+              ><h4>PRO Sistem d.o.o., Starozlatička bb, 81000 Podgorica</h4></a
+            >
           </div>
         </div>
         <div class="footer-drustvene-mreze">
-          <h3>Društvene mreže</h3>
+          <h3>Social</h3>
           <div class="social-icons__align">
             <img
               id="align1"
@@ -367,14 +362,37 @@
 
       <div class="bottom-footer">
         <!--Bottom footer -->
-        <div class="bottom-footer__single">
-          <a class="hover-underline-animation" href="#">Kolačići</a>
+        <div class="bottom-footer__desktop">
+          <div class="bottom-footer__single">
+            <a class="hover-underline-animation" href="/en/cookies/">Cookies</a>
+          </div>
+          <div class="bottom-footer__single-middle">
+            <a href="https://www.webcenter.me/"
+              ><p>Copyright © 2024 Web Center. All Rights Reserved.</p></a
+            >
+          </div>
+          <div class="bottom-footer__single">
+            <a class="hover-underline-animation" href="/en/privacy-policy/"
+              >Privacy Policy</a
+            >
+          </div>
         </div>
-        <div class="bottom-footer__single-middle">
-          <p>Copyright © 2024 Web Center. All Rights Reserved.</p>
-        </div>
-        <div class="bottom-footer__single">
-          <a class="hover-underline-animation" href="#">Politika privatnosti</a>
+        <div class="bottom-footer__mobile">
+          <div class="bottom-footer__mobile-align">
+            <div class="bottom-footer__single">
+              <a class="hover-underline-animation" href="/en/cookies/">Cookies</a>
+            </div>
+            <div class="bottom-footer__single">
+              <a class="hover-underline-animation" href="/en/privacy-policy/"
+                >Privacy Policy</a
+              >
+            </div>
+          </div>
+          <div class="bottom-footer__single-middle">
+            <a href="https://www.webcenter.me/"
+              ><p>Copyright © 2024 Web Center. All Rights Reserved.</p></a
+            >
+          </div>
         </div>
       </div>
     </footer>
