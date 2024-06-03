@@ -149,7 +149,6 @@ form button:hover {
 
 .social-icons__contact {
   display: flex;
-  justify-content: space-between;
   padding: 0 40px 0 0;
 }
 
@@ -157,6 +156,7 @@ form button:hover {
   width: 40px;
   cursor: pointer;
   margin-top: 20px;
+  margin-right: 25px;
 }
 
 #youtube-contact {

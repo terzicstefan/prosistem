@@ -149,6 +149,7 @@ bottom: 0%;
     display: flex;
     text-align: center;
     margin:20px 20px;
+    justify-content: center;
   }
 
   .flex-align h4 {
