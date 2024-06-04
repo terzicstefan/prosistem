@@ -297,7 +297,7 @@ header {
   top: 45vh;
 }
 
-.hero-section h2 {
+.hero-section h1 {
   font-size: 65px;
   color: #fff;
   margin-top: -40px;
@@ -1110,7 +1110,7 @@ footer {
     top: 40vh;
   }
 
-  .hero-section h2 {
+  .hero-section h1 {
     font-size: 35px;
     margin-top: -20px;
     text-align: center;
